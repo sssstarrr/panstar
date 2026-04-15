@@ -5864,7 +5864,7 @@ function(e, t, n) {
     var v = h.prototype;
     v.preInit = function() {
         var e = this;
-        o.loader.add(r.cdnPath + "images/" + this.id + "/" + (i.isMobile ? "mobile_thumb.png": "desktop_home_thumb.png"), {
+        o.loader.add(r.cdnPath + "images/" + this.id + "/desktop_home_thumb.png", {
             onLoad: function(t) {
                 a.add(t, i.isMobile ? 256 : 544, i.isMobile ? 256 : 306,
                 function(t) {
