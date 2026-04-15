@@ -1,0 +1,1291 @@
+{
+  "generatedAt": "2026-04-15T11:16:14.174Z",
+  "harFile": "C:\\Users\\Administrator\\Downloads\\123.har",
+  "repoRoot": "E:\\Download\\anzhiyu",
+  "origin": "https://index.anheyu.com",
+  "sourceFile": "E:\\Download\\anzhiyu\\js\\index.js",
+  "summary": {
+    "totalEntries": 67,
+    "consideredResources": 20,
+    "skippedEntries": {
+      "nonGetMethod": 31,
+      "invalidUrl": 0,
+      "skippedProtocol": 0,
+      "unsupportedProtocol": 0,
+      "nonResourceExtension": 16
+    },
+    "present": 8,
+    "missing": 12,
+    "remoteCdn": 0,
+    "externalIgnored": 0,
+    "sourceCandidates": 25,
+    "sourceOnlyCandidates": 23,
+    "runtimeSeenAndSourceMatched": 6,
+    "templateCandidates": 7
+  },
+  "sourceScan": {
+    "sourceFile": "E:\\Download\\anzhiyu\\js\\index.js",
+    "callSites": 32,
+    "uniqueCandidates": 25,
+    "sourceOnlyCandidates": 23,
+    "runtimeSeenAndSourceMatched": 6,
+    "templateCandidates": 7
+  },
+  "items": [
+    {
+      "kind": "runtime",
+      "url": "https://index.anheyu.com/assets/audios/hover0.mp3",
+      "host": "index.anheyu.com",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "responseOk": true,
+      "normalizedPath": "assets/audios/hover0.mp3",
+      "templatePath": null,
+      "exists": false,
+      "classification": "missing",
+      "extension": "mp3",
+      "requestCount": 1,
+      "discovery": "runtime+source",
+      "evidence": [
+        "runtime",
+        "source"
+      ],
+      "matchedSourcePaths": [
+        "assets/audios/{e}.mp3"
+      ],
+      "matchedSourceContexts": [
+        "js/index.js:1497"
+      ]
+    },
+    {
+      "kind": "runtime",
+      "url": "https://index.anheyu.com/assets/audios/hover1.mp3",
+      "host": "index.anheyu.com",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "responseOk": true,
+      "normalizedPath": "assets/audios/hover1.mp3",
+      "templatePath": null,
+      "exists": false,
+      "classification": "missing",
+      "extension": "mp3",
+      "requestCount": 1,
+      "discovery": "runtime+source",
+      "evidence": [
+        "runtime",
+        "source"
+      ],
+      "matchedSourcePaths": [
+        "assets/audios/{e}.mp3"
+      ],
+      "matchedSourceContexts": [
+        "js/index.js:1497"
+      ]
+    },
+    {
+      "kind": "runtime",
+      "url": "https://index.anheyu.com/assets/images/img-1/desktop_home.png",
+      "host": "index.anheyu.com",
+      "status": 404,
+      "statuses": [
+        404
+      ],
+      "responseOk": false,
+      "normalizedPath": "assets/images/img-1/desktop_home.png",
+      "templatePath": null,
+      "exists": false,
+      "classification": "missing",
+      "extension": "png",
+      "requestCount": 1,
+      "discovery": "runtime+source",
+      "evidence": [
+        "runtime",
+        "source"
+      ],
+      "matchedSourcePaths": [
+        "assets/images/{id}/{desktop_home_thumb.png|desktop_home.png}"
+      ],
+      "matchedSourceContexts": [
+        "js/index.js:5912"
+      ]
+    },
+    {
+      "kind": "runtime",
+      "url": "https://index.anheyu.com/assets/images/img-2/desktop_home.png",
+      "host": "index.anheyu.com",
+      "status": 404,
+      "statuses": [
+        404
+      ],
+      "responseOk": false,
+      "normalizedPath": "assets/images/img-2/desktop_home.png",
+      "templatePath": null,
+      "exists": false,
+      "classification": "missing",
+      "extension": "png",
+      "requestCount": 1,
+      "discovery": "runtime+source",
+      "evidence": [
+        "runtime",
+        "source"
+      ],
+      "matchedSourcePaths": [
+        "assets/images/{id}/{desktop_home_thumb.png|desktop_home.png}"
+      ],
+      "matchedSourceContexts": [
+        "js/index.js:5912"
+      ]
+    },
+    {
+      "kind": "runtime",
+      "url": "https://index.anheyu.com/assets/images/img-3/desktop_home.png",
+      "host": "index.anheyu.com",
+      "status": 404,
+      "statuses": [
+        404
+      ],
+      "responseOk": false,
+      "normalizedPath": "assets/images/img-3/desktop_home.png",
+      "templatePath": null,
+      "exists": false,
+      "classification": "missing",
+      "extension": "png",
+      "requestCount": 1,
+      "discovery": "runtime+source",
+      "evidence": [
+        "runtime",
+        "source"
+      ],
+      "matchedSourcePaths": [
+        "assets/images/{id}/{desktop_home_thumb.png|desktop_home.png}"
+      ],
+      "matchedSourceContexts": [
+        "js/index.js:5912"
+      ]
+    },
+    {
+      "kind": "runtime",
+      "url": "https://index.anheyu.com/assets/images/img-4/desktop_home.png",
+      "host": "index.anheyu.com",
+      "status": 404,
+      "statuses": [
+        404
+      ],
+      "responseOk": false,
+      "normalizedPath": "assets/images/img-4/desktop_home.png",
+      "templatePath": null,
+      "exists": false,
+      "classification": "missing",
+      "extension": "png",
+      "requestCount": 1,
+      "discovery": "runtime+source",
+      "evidence": [
+        "runtime",
+        "source"
+      ],
+      "matchedSourcePaths": [
+        "assets/images/{id}/{desktop_home_thumb.png|desktop_home.png}"
+      ],
+      "matchedSourceContexts": [
+        "js/index.js:5912"
+      ]
+    },
+    {
+      "kind": "runtime",
+      "url": "https://index.anheyu.com/assets/fonts/GT-Sectra-Fine-Book.woff2",
+      "host": "index.anheyu.com",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "responseOk": true,
+      "normalizedPath": "assets/fonts/GT-Sectra-Fine-Book.woff2",
+      "templatePath": null,
+      "exists": false,
+      "classification": "missing",
+      "extension": "woff2",
+      "requestCount": 1,
+      "discovery": "runtime",
+      "evidence": [
+        "runtime"
+      ],
+      "matchedSourcePaths": [],
+      "matchedSourceContexts": []
+    },
+    {
+      "kind": "runtime",
+      "url": "https://index.anheyu.com/assets/fonts/GT-Sectra-Fine-Medium.woff2",
+      "host": "index.anheyu.com",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "responseOk": true,
+      "normalizedPath": "assets/fonts/GT-Sectra-Fine-Medium.woff2",
+      "templatePath": null,
+      "exists": false,
+      "classification": "missing",
+      "extension": "woff2",
+      "requestCount": 1,
+      "discovery": "runtime",
+      "evidence": [
+        "runtime"
+      ],
+      "matchedSourcePaths": [],
+      "matchedSourceContexts": []
+    },
+    {
+      "kind": "runtime",
+      "url": "https://index.anheyu.com/assets/fonts/nb_akademie_light-webfont.woff2",
+      "host": "index.anheyu.com",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "responseOk": true,
+      "normalizedPath": "assets/fonts/nb_akademie_light-webfont.woff2",
+      "templatePath": null,
+      "exists": false,
+      "classification": "missing",
+      "extension": "woff2",
+      "requestCount": 1,
+      "discovery": "runtime",
+      "evidence": [
+        "runtime"
+      ],
+      "matchedSourcePaths": [],
+      "matchedSourceContexts": []
+    },
+    {
+      "kind": "runtime",
+      "url": "https://index.anheyu.com/assets/fonts/nb_akademie_medium-webfont.woff2",
+      "host": "index.anheyu.com",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "responseOk": true,
+      "normalizedPath": "assets/fonts/nb_akademie_medium-webfont.woff2",
+      "templatePath": null,
+      "exists": false,
+      "classification": "missing",
+      "extension": "woff2",
+      "requestCount": 1,
+      "discovery": "runtime",
+      "evidence": [
+        "runtime"
+      ],
+      "matchedSourcePaths": [],
+      "matchedSourceContexts": []
+    },
+    {
+      "kind": "runtime",
+      "url": "https://index.anheyu.com/assets/images/avatar.jpg",
+      "host": "index.anheyu.com",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "responseOk": true,
+      "normalizedPath": "assets/images/avatar.jpg",
+      "templatePath": null,
+      "exists": false,
+      "classification": "missing",
+      "extension": "jpg",
+      "requestCount": 1,
+      "discovery": "runtime",
+      "evidence": [
+        "runtime"
+      ],
+      "matchedSourcePaths": [],
+      "matchedSourceContexts": []
+    },
+    {
+      "kind": "runtime",
+      "url": "https://index.anheyu.com/assets//images/dark.png",
+      "host": "index.anheyu.com",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "responseOk": true,
+      "normalizedPath": "assets/images/dark.png",
+      "templatePath": null,
+      "exists": false,
+      "classification": "missing",
+      "extension": "png",
+      "requestCount": 1,
+      "discovery": "runtime",
+      "evidence": [
+        "runtime"
+      ],
+      "matchedSourcePaths": [],
+      "matchedSourceContexts": []
+    },
+    {
+      "kind": "source-candidate",
+      "url": "https://index.anheyu.com/assets/audios/{e}.mp3",
+      "host": "index.anheyu.com",
+      "status": null,
+      "statuses": [],
+      "responseOk": null,
+      "normalizedPath": null,
+      "templatePath": "assets/audios/{e}.mp3",
+      "exists": false,
+      "classification": "missing",
+      "extension": "mp3",
+      "requestCount": 0,
+      "discovery": "runtime+source",
+      "evidence": [
+        "runtime",
+        "source"
+      ],
+      "patternType": "template",
+      "sourceContext": "js/index.js:1497",
+      "sourceContexts": [
+        "js/index.js:1497"
+      ],
+      "sourceSnippet": "p[e = e || \"default\"] || (p[e] = !0, o.loader.add(i.cdnPath + \"audios/\" + e + \".mp3\", {",
+      "sourceSnippets": [
+        "p[e = e || \"default\"] || (p[e] = !0, o.loader.add(i.cdnPath + \"audios/\" + e + \".mp3\", {"
+      ],
+      "sourceCount": 1,
+      "discoveredBy": "loader.add",
+      "matchedRuntimeCount": 2,
+      "matchedRuntimePaths": [
+        "assets/audios/hover0.mp3",
+        "assets/audios/hover1.mp3"
+      ]
+    },
+    {
+      "kind": "source-candidate",
+      "url": "https://index.anheyu.com/assets/images/{low/|high/}cloth.json",
+      "host": "index.anheyu.com",
+      "status": null,
+      "statuses": [],
+      "responseOk": null,
+      "normalizedPath": null,
+      "templatePath": "assets/images/{low/|high/}cloth.json",
+      "exists": false,
+      "classification": "missing",
+      "extension": "json",
+      "requestCount": 0,
+      "discovery": "source",
+      "evidence": [
+        "source"
+      ],
+      "patternType": "template",
+      "sourceContext": "js/index.js:11767",
+      "sourceContexts": [
+        "js/index.js:11767"
+      ],
+      "sourceSnippet": "o.loader.add(a + \"cloth.json\", {",
+      "sourceSnippets": [
+        "o.loader.add(a + \"cloth.json\", {"
+      ],
+      "sourceCount": 1,
+      "discoveredBy": "loader.add",
+      "matchedRuntimeCount": 0,
+      "matchedRuntimePaths": []
+    },
+    {
+      "kind": "source-candidate",
+      "url": "https://index.anheyu.com/assets/images/animation.glb",
+      "host": "index.anheyu.com",
+      "status": null,
+      "statuses": [],
+      "responseOk": null,
+      "normalizedPath": "assets/images/animation.glb",
+      "templatePath": null,
+      "exists": false,
+      "classification": "missing",
+      "extension": "glb",
+      "requestCount": 0,
+      "discovery": "source",
+      "evidence": [
+        "source"
+      ],
+      "patternType": "concatenated",
+      "sourceContext": "js/index.js:11746",
+      "sourceContexts": [
+        "js/index.js:11746"
+      ],
+      "sourceSnippet": "o.loader.add(r.assetPath + \"images/animation.glb\", {",
+      "sourceSnippets": [
+        "o.loader.add(r.assetPath + \"images/animation.glb\", {"
+      ],
+      "sourceCount": 1,
+      "discoveredBy": "loader.add",
+      "matchedRuntimeCount": 0,
+      "matchedRuntimePaths": []
+    },
+    {
+      "kind": "source-candidate",
+      "url": "https://index.anheyu.com/assets/images/buffers.buf",
+      "host": "index.anheyu.com",
+      "status": null,
+      "statuses": [],
+      "responseOk": null,
+      "normalizedPath": "assets/images/buffers.buf",
+      "templatePath": null,
+      "exists": false,
+      "classification": "missing",
+      "extension": "buf",
+      "requestCount": 0,
+      "discovery": "source",
+      "evidence": [
+        "source"
+      ],
+      "patternType": "concatenated",
+      "sourceContext": "js/index.js:3660",
+      "sourceContexts": [
+        "js/index.js:3660"
+      ],
+      "sourceSnippet": "o.loader.add(r.assetPath + \"images/buffers.buf\", {",
+      "sourceSnippets": [
+        "o.loader.add(r.assetPath + \"images/buffers.buf\", {"
+      ],
+      "sourceCount": 1,
+      "discoveredBy": "loader.add",
+      "matchedRuntimeCount": 0,
+      "matchedRuntimePaths": []
+    },
+    {
+      "kind": "source-candidate",
+      "url": "https://index.anheyu.com/assets/images/female.glb",
+      "host": "index.anheyu.com",
+      "status": null,
+      "statuses": [],
+      "responseOk": null,
+      "normalizedPath": "assets/images/female.glb",
+      "templatePath": null,
+      "exists": false,
+      "classification": "missing",
+      "extension": "glb",
+      "requestCount": 0,
+      "discovery": "source",
+      "evidence": [
+        "source"
+      ],
+      "patternType": "concatenated",
+      "sourceContext": "js/index.js:3653",
+      "sourceContexts": [
+        "js/index.js:3653"
+      ],
+      "sourceSnippet": "o.loader.add(r.assetPath + \"images/female.glb\", {",
+      "sourceSnippets": [
+        "o.loader.add(r.assetPath + \"images/female.glb\", {"
+      ],
+      "sourceCount": 1,
+      "discoveredBy": "loader.add",
+      "matchedRuntimeCount": 0,
+      "matchedRuntimePaths": []
+    },
+    {
+      "kind": "source-candidate",
+      "url": "https://index.anheyu.com/assets/visuals/homeAbout/beethoven.glb",
+      "host": "index.anheyu.com",
+      "status": null,
+      "statuses": [],
+      "responseOk": null,
+      "normalizedPath": "assets/visuals/homeAbout/beethoven.glb",
+      "templatePath": null,
+      "exists": false,
+      "classification": "missing",
+      "extension": "glb",
+      "requestCount": 0,
+      "discovery": "source",
+      "evidence": [
+        "source"
+      ],
+      "patternType": "concatenated",
+      "sourceContext": "js/index.js:9282",
+      "sourceContexts": [
+        "js/index.js:9282"
+      ],
+      "sourceSnippet": "a.loader.add(o.assetPath + \"visuals/homeAbout/beethoven.glb\", {",
+      "sourceSnippets": [
+        "a.loader.add(o.assetPath + \"visuals/homeAbout/beethoven.glb\", {"
+      ],
+      "sourceCount": 1,
+      "discoveredBy": "loader.add",
+      "matchedRuntimeCount": 0,
+      "matchedRuntimePaths": []
+    },
+    {
+      "kind": "source-candidate",
+      "url": "https://index.anheyu.com/assets/visuals/homeAbout/beethoven.png",
+      "host": "index.anheyu.com",
+      "status": null,
+      "statuses": [],
+      "responseOk": null,
+      "normalizedPath": "assets/visuals/homeAbout/beethoven.png",
+      "templatePath": null,
+      "exists": false,
+      "classification": "missing",
+      "extension": "png",
+      "requestCount": 0,
+      "discovery": "source",
+      "evidence": [
+        "source"
+      ],
+      "patternType": "concatenated",
+      "sourceContext": "js/index.js:9273",
+      "sourceContexts": [
+        "js/index.js:9273"
+      ],
+      "sourceSnippet": "if (h.preInit.call(this), l.preInit(this), !r.isMobile) { (p = new i.Texture(a.loader.add(o.cdnPath + \"visuals/homeAbout/beethoven.png\").content)).flipY = !1,",
+      "sourceSnippets": [
+        "if (h.preInit.call(this), l.preInit(this), !r.isMobile) { (p = new i.Texture(a.loader.add(o.cdnPath + \"visuals/homeAbout/beethoven.png\").content)).flipY = !1,"
+      ],
+      "sourceCount": 1,
+      "discoveredBy": "loader.add",
+      "matchedRuntimeCount": 0,
+      "matchedRuntimePaths": []
+    },
+    {
+      "kind": "source-candidate",
+      "url": "https://index.anheyu.com/assets/visuals/homeAbout/bg.buf",
+      "host": "index.anheyu.com",
+      "status": null,
+      "statuses": [],
+      "responseOk": null,
+      "normalizedPath": "assets/visuals/homeAbout/bg.buf",
+      "templatePath": null,
+      "exists": false,
+      "classification": "missing",
+      "extension": "buf",
+      "requestCount": 0,
+      "discovery": "source",
+      "evidence": [
+        "source"
+      ],
+      "patternType": "concatenated",
+      "sourceContext": "js/index.js:9442",
+      "sourceContexts": [
+        "js/index.js:9442"
+      ],
+      "sourceSnippet": "a.loader.add(o.assetPath + \"visuals/homeAbout/bg.buf\", {",
+      "sourceSnippets": [
+        "a.loader.add(o.assetPath + \"visuals/homeAbout/bg.buf\", {"
+      ],
+      "sourceCount": 1,
+      "discoveredBy": "loader.add",
+      "matchedRuntimeCount": 0,
+      "matchedRuntimePaths": []
+    },
+    {
+      "kind": "source-candidate",
+      "url": "https://index.anheyu.com/assets/visuals/homeAbout/matcap.jpg",
+      "host": "index.anheyu.com",
+      "status": null,
+      "statuses": [],
+      "responseOk": null,
+      "normalizedPath": "assets/visuals/homeAbout/matcap.jpg",
+      "templatePath": null,
+      "exists": false,
+      "classification": "missing",
+      "extension": "jpg",
+      "requestCount": 0,
+      "discovery": "source",
+      "evidence": [
+        "source"
+      ],
+      "patternType": "concatenated",
+      "sourceContext": "js/index.js:9276",
+      "sourceContexts": [
+        "js/index.js:9276"
+      ],
+      "sourceSnippet": "(g = new i.Texture(a.loader.add(o.cdnPath + \"visuals/homeAbout/matcap.jpg\").content)).minFilter = g.magFilter = i.LinearFilter,",
+      "sourceSnippets": [
+        "(g = new i.Texture(a.loader.add(o.cdnPath + \"visuals/homeAbout/matcap.jpg\").content)).minFilter = g.magFilter = i.LinearFilter,"
+      ],
+      "sourceCount": 1,
+      "discoveredBy": "loader.add",
+      "matchedRuntimeCount": 0,
+      "matchedRuntimePaths": []
+    },
+    {
+      "kind": "source-candidate",
+      "url": "https://index.anheyu.com/assets/visuals/homeHero/initial.buf",
+      "host": "index.anheyu.com",
+      "status": null,
+      "statuses": [],
+      "responseOk": null,
+      "normalizedPath": "assets/visuals/homeHero/initial.buf",
+      "templatePath": null,
+      "exists": false,
+      "classification": "missing",
+      "extension": "buf",
+      "requestCount": 0,
+      "discovery": "source",
+      "evidence": [
+        "source"
+      ],
+      "patternType": "concatenated",
+      "sourceContext": "js/index.js:6240",
+      "sourceContexts": [
+        "js/index.js:6240"
+      ],
+      "sourceSnippet": "d.loader.add(l.assetPath + \"visuals/homeHero/initial.buf\", {",
+      "sourceSnippets": [
+        "d.loader.add(l.assetPath + \"visuals/homeHero/initial.buf\", {"
+      ],
+      "sourceCount": 1,
+      "discoveredBy": "loader.add",
+      "matchedRuntimeCount": 0,
+      "matchedRuntimePaths": []
+    },
+    {
+      "kind": "source-candidate",
+      "url": "https://index.anheyu.com/assets/visuals/homeVideo/bottom_n.jpg",
+      "host": "index.anheyu.com",
+      "status": null,
+      "statuses": [],
+      "responseOk": null,
+      "normalizedPath": "assets/visuals/homeVideo/bottom_n.jpg",
+      "templatePath": null,
+      "exists": false,
+      "classification": "missing",
+      "extension": "jpg",
+      "requestCount": 0,
+      "discovery": "source",
+      "evidence": [
+        "source"
+      ],
+      "patternType": "concatenated",
+      "sourceContext": "js/index.js:9834",
+      "sourceContexts": [
+        "js/index.js:9834"
+      ],
+      "sourceSnippet": "(I = new u.Texture(o.loader.add(r.cdnPath + \"visuals/homeVideo/bottom_n.jpg\", {",
+      "sourceSnippets": [
+        "(I = new u.Texture(o.loader.add(r.cdnPath + \"visuals/homeVideo/bottom_n.jpg\", {"
+      ],
+      "sourceCount": 1,
+      "discoveredBy": "loader.add",
+      "matchedRuntimeCount": 0,
+      "matchedRuntimePaths": []
+    },
+    {
+      "kind": "source-candidate",
+      "url": "https://index.anheyu.com/assets/visuals/homeVideo/data.buf",
+      "host": "index.anheyu.com",
+      "status": null,
+      "statuses": [],
+      "responseOk": null,
+      "normalizedPath": "assets/visuals/homeVideo/data.buf",
+      "templatePath": null,
+      "exists": false,
+      "classification": "missing",
+      "extension": "buf",
+      "requestCount": 0,
+      "discovery": "source",
+      "evidence": [
+        "source"
+      ],
+      "patternType": "concatenated",
+      "sourceContext": "js/index.js:9868",
+      "sourceContexts": [
+        "js/index.js:9868"
+      ],
+      "sourceSnippet": "o.loader.add(r.assetPath + \"visuals/homeVideo/data.buf\", {",
+      "sourceSnippets": [
+        "o.loader.add(r.assetPath + \"visuals/homeVideo/data.buf\", {"
+      ],
+      "sourceCount": 1,
+      "discoveredBy": "loader.add",
+      "matchedRuntimeCount": 0,
+      "matchedRuntimePaths": []
+    },
+    {
+      "kind": "source-candidate",
+      "url": "https://index.anheyu.com/assets/visuals/homeVideo/model_n.jpg",
+      "host": "index.anheyu.com",
+      "status": null,
+      "statuses": [],
+      "responseOk": null,
+      "normalizedPath": "assets/visuals/homeVideo/model_n.jpg",
+      "templatePath": null,
+      "exists": false,
+      "classification": "missing",
+      "extension": "jpg",
+      "requestCount": 0,
+      "discovery": "source",
+      "evidence": [
+        "source"
+      ],
+      "patternType": "concatenated",
+      "sourceContext": "js/index.js:9830",
+      "sourceContexts": [
+        "js/index.js:9830"
+      ],
+      "sourceSnippet": "(C = new u.Texture(o.loader.add(r.cdnPath + \"visuals/homeVideo/model_n.jpg\").content)).wrapS = C.wrapT = u.RepeatWrapping,",
+      "sourceSnippets": [
+        "(C = new u.Texture(o.loader.add(r.cdnPath + \"visuals/homeVideo/model_n.jpg\").content)).wrapS = C.wrapT = u.RepeatWrapping,"
+      ],
+      "sourceCount": 1,
+      "discoveredBy": "loader.add",
+      "matchedRuntimeCount": 0,
+      "matchedRuntimePaths": []
+    },
+    {
+      "kind": "source-candidate",
+      "url": "https://index.anheyu.com/assets/visuals/homeVideo/room.glb",
+      "host": "index.anheyu.com",
+      "status": null,
+      "statuses": [],
+      "responseOk": null,
+      "normalizedPath": "assets/visuals/homeVideo/room.glb",
+      "templatePath": null,
+      "exists": false,
+      "classification": "missing",
+      "extension": "glb",
+      "requestCount": 0,
+      "discovery": "source",
+      "evidence": [
+        "source"
+      ],
+      "patternType": "concatenated",
+      "sourceContext": "js/index.js:9844",
+      "sourceContexts": [
+        "js/index.js:9844"
+      ],
+      "sourceSnippet": "o.loader.add(r.assetPath + \"visuals/homeVideo/room.glb\", {",
+      "sourceSnippets": [
+        "o.loader.add(r.assetPath + \"visuals/homeVideo/room.glb\", {"
+      ],
+      "sourceCount": 1,
+      "discoveredBy": "loader.add",
+      "matchedRuntimeCount": 0,
+      "matchedRuntimePaths": []
+    },
+    {
+      "kind": "source-candidate",
+      "url": "https://index.anheyu.com/assets/visuals/homeVideo/tagline.buf",
+      "host": "index.anheyu.com",
+      "status": null,
+      "statuses": [],
+      "responseOk": null,
+      "normalizedPath": "assets/visuals/homeVideo/tagline.buf",
+      "templatePath": null,
+      "exists": false,
+      "classification": "missing",
+      "extension": "buf",
+      "requestCount": 0,
+      "discovery": "source",
+      "evidence": [
+        "source"
+      ],
+      "patternType": "concatenated",
+      "sourceContext": "js/index.js:9854",
+      "sourceContexts": [
+        "js/index.js:9854"
+      ],
+      "sourceSnippet": "o.loader.add(r.assetPath + \"visuals/homeVideo/tagline.buf\", {",
+      "sourceSnippets": [
+        "o.loader.add(r.assetPath + \"visuals/homeVideo/tagline.buf\", {"
+      ],
+      "sourceCount": 1,
+      "discoveredBy": "loader.add",
+      "matchedRuntimeCount": 0,
+      "matchedRuntimePaths": []
+    },
+    {
+      "kind": "source-candidate",
+      "url": "https://index.anheyu.com/assets/visuals/shared/smaa-area.png",
+      "host": "index.anheyu.com",
+      "status": null,
+      "statuses": [],
+      "responseOk": null,
+      "normalizedPath": "assets/visuals/shared/smaa-area.png",
+      "templatePath": null,
+      "exists": false,
+      "classification": "missing",
+      "extension": "png",
+      "requestCount": 0,
+      "discovery": "source",
+      "evidence": [
+        "source"
+      ],
+      "patternType": "concatenated",
+      "sourceContext": "js/index.js:12147",
+      "sourceContexts": [
+        "js/index.js:12147"
+      ],
+      "sourceSnippet": "r.USE_SMAA && d.setTextures(i.loader.add(r.cdnPath + \"visuals/shared/smaa-area.png\").content, i.loader.add(r.cdnPath + \"visuals/shared/smaa-search.png\").conten…",
+      "sourceSnippets": [
+        "r.USE_SMAA && d.setTextures(i.loader.add(r.cdnPath + \"visuals/shared/smaa-area.png\").content, i.loader.add(r.cdnPath + \"visuals/shared/smaa-search.png\").conten…"
+      ],
+      "sourceCount": 1,
+      "discoveredBy": "loader.add",
+      "matchedRuntimeCount": 0,
+      "matchedRuntimePaths": []
+    },
+    {
+      "kind": "source-candidate",
+      "url": "https://index.anheyu.com/assets/visuals/shared/smaa-search.png",
+      "host": "index.anheyu.com",
+      "status": null,
+      "statuses": [],
+      "responseOk": null,
+      "normalizedPath": "assets/visuals/shared/smaa-search.png",
+      "templatePath": null,
+      "exists": false,
+      "classification": "missing",
+      "extension": "png",
+      "requestCount": 0,
+      "discovery": "source",
+      "evidence": [
+        "source"
+      ],
+      "patternType": "concatenated",
+      "sourceContext": "js/index.js:12147",
+      "sourceContexts": [
+        "js/index.js:12147"
+      ],
+      "sourceSnippet": "r.USE_SMAA && d.setTextures(i.loader.add(r.cdnPath + \"visuals/shared/smaa-area.png\").content, i.loader.add(r.cdnPath + \"visuals/shared/smaa-search.png\").conten…",
+      "sourceSnippets": [
+        "r.USE_SMAA && d.setTextures(i.loader.add(r.cdnPath + \"visuals/shared/smaa-area.png\").content, i.loader.add(r.cdnPath + \"visuals/shared/smaa-search.png\").conten…"
+      ],
+      "sourceCount": 1,
+      "discoveredBy": "loader.add",
+      "matchedRuntimeCount": 0,
+      "matchedRuntimePaths": []
+    },
+    {
+      "kind": "source-candidate",
+      "url": "https://d8d3yaw9yoj7k.cloudfront.net/visuals/homeVideo/{videoHeight}.mp4",
+      "host": "d8d3yaw9yoj7k.cloudfront.net",
+      "status": null,
+      "statuses": [],
+      "responseOk": null,
+      "normalizedPath": null,
+      "templatePath": "visuals/homeVideo/{videoHeight}.mp4",
+      "exists": null,
+      "classification": "remote-cdn",
+      "extension": "mp4",
+      "requestCount": 0,
+      "discovery": "source",
+      "evidence": [
+        "source"
+      ],
+      "patternType": "template",
+      "sourceContext": "js/index.js:9838",
+      "sourceContexts": [
+        "js/index.js:9838"
+      ],
+      "sourceSnippet": "(P = o.loader.add(r.videoCdnPath + \"visuals/homeVideo/\" + this.videoHeight + \".mp4\", {",
+      "sourceSnippets": [
+        "(P = o.loader.add(r.videoCdnPath + \"visuals/homeVideo/\" + this.videoHeight + \".mp4\", {"
+      ],
+      "sourceCount": 1,
+      "discoveredBy": "loader.add",
+      "matchedRuntimeCount": 0,
+      "matchedRuntimePaths": []
+    },
+    {
+      "kind": "runtime",
+      "url": "https://index.anheyu.com/assets/images/Anheyu.png",
+      "host": "index.anheyu.com",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "responseOk": true,
+      "normalizedPath": "assets/images/Anheyu.png",
+      "templatePath": null,
+      "exists": true,
+      "classification": "present",
+      "extension": "png",
+      "requestCount": 1,
+      "discovery": "runtime",
+      "evidence": [
+        "runtime"
+      ],
+      "matchedSourcePaths": [],
+      "matchedSourceContexts": []
+    },
+    {
+      "kind": "runtime",
+      "url": "https://index.anheyu.com/assets/images/code.webp",
+      "host": "index.anheyu.com",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "responseOk": true,
+      "normalizedPath": "assets/images/code.webp",
+      "templatePath": null,
+      "exists": true,
+      "classification": "present",
+      "extension": "webp",
+      "requestCount": 1,
+      "discovery": "runtime",
+      "evidence": [
+        "runtime"
+      ],
+      "matchedSourcePaths": [],
+      "matchedSourceContexts": []
+    },
+    {
+      "kind": "runtime",
+      "url": "https://index.anheyu.com/assets/images/myblog.png",
+      "host": "index.anheyu.com",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "responseOk": true,
+      "normalizedPath": "assets/images/myblog.png",
+      "templatePath": null,
+      "exists": true,
+      "classification": "present",
+      "extension": "png",
+      "requestCount": 1,
+      "discovery": "runtime",
+      "evidence": [
+        "runtime"
+      ],
+      "matchedSourcePaths": [],
+      "matchedSourceContexts": []
+    },
+    {
+      "kind": "runtime",
+      "url": "https://index.anheyu.com/assets/images/Picturebed.png",
+      "host": "index.anheyu.com",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "responseOk": true,
+      "normalizedPath": "assets/images/Picturebed.png",
+      "templatePath": null,
+      "exists": true,
+      "classification": "present",
+      "extension": "png",
+      "requestCount": 1,
+      "discovery": "runtime",
+      "evidence": [
+        "runtime"
+      ],
+      "matchedSourcePaths": [],
+      "matchedSourceContexts": []
+    },
+    {
+      "kind": "runtime",
+      "url": "https://index.anheyu.com/css/index.css",
+      "host": "index.anheyu.com",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "responseOk": true,
+      "normalizedPath": "css/index.css",
+      "templatePath": null,
+      "exists": true,
+      "classification": "present",
+      "extension": "css",
+      "requestCount": 1,
+      "discovery": "runtime",
+      "evidence": [
+        "runtime"
+      ],
+      "matchedSourcePaths": [],
+      "matchedSourceContexts": []
+    },
+    {
+      "kind": "runtime",
+      "url": "https://index.anheyu.com/js/index.js",
+      "host": "index.anheyu.com",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "responseOk": true,
+      "normalizedPath": "js/index.js",
+      "templatePath": null,
+      "exists": true,
+      "classification": "present",
+      "extension": "js",
+      "requestCount": 1,
+      "discovery": "runtime",
+      "evidence": [
+        "runtime"
+      ],
+      "matchedSourcePaths": [],
+      "matchedSourceContexts": []
+    },
+    {
+      "kind": "runtime",
+      "url": "https://index.anheyu.com/js/three.r112.js",
+      "host": "index.anheyu.com",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "responseOk": true,
+      "normalizedPath": "js/three.r112.js",
+      "templatePath": null,
+      "exists": true,
+      "classification": "present",
+      "extension": "js",
+      "requestCount": 1,
+      "discovery": "runtime",
+      "evidence": [
+        "runtime"
+      ],
+      "matchedSourcePaths": [],
+      "matchedSourceContexts": []
+    },
+    {
+      "kind": "runtime",
+      "url": "https://index.anheyu.com/js/TweenLite.js",
+      "host": "index.anheyu.com",
+      "status": 200,
+      "statuses": [
+        200
+      ],
+      "responseOk": true,
+      "normalizedPath": "js/TweenLite.js",
+      "templatePath": null,
+      "exists": true,
+      "classification": "present",
+      "extension": "js",
+      "requestCount": 1,
+      "discovery": "runtime",
+      "evidence": [
+        "runtime"
+      ],
+      "matchedSourcePaths": [],
+      "matchedSourceContexts": []
+    },
+    {
+      "kind": "source-candidate",
+      "url": "https://index.anheyu.com/assets/images/{id}/{desktop_home_thumb.png|desktop_home.png}",
+      "host": "index.anheyu.com",
+      "status": null,
+      "statuses": [],
+      "responseOk": null,
+      "normalizedPath": null,
+      "templatePath": "assets/images/{id}/{desktop_home_thumb.png|desktop_home.png}",
+      "exists": true,
+      "classification": "present",
+      "extension": "png",
+      "requestCount": 0,
+      "discovery": "runtime+source",
+      "evidence": [
+        "runtime",
+        "source"
+      ],
+      "patternType": "template",
+      "sourceContext": "js/index.js:5912",
+      "sourceContexts": [
+        "js/index.js:5912"
+      ],
+      "sourceSnippet": "o.loader.load(n, {",
+      "sourceSnippets": [
+        "o.loader.load(n, {"
+      ],
+      "sourceCount": 1,
+      "discoveredBy": "loader.load",
+      "matchedRuntimeCount": 4,
+      "matchedRuntimePaths": [
+        "assets/images/img-1/desktop_home.png",
+        "assets/images/img-2/desktop_home.png",
+        "assets/images/img-3/desktop_home.png",
+        "assets/images/img-4/desktop_home.png"
+      ]
+    },
+    {
+      "kind": "source-candidate",
+      "url": "https://index.anheyu.com/assets/images/{id}/{mobile_thumb.png|desktop_home_thumb.png}",
+      "host": "index.anheyu.com",
+      "status": null,
+      "statuses": [],
+      "responseOk": null,
+      "normalizedPath": null,
+      "templatePath": "assets/images/{id}/{mobile_thumb.png|desktop_home_thumb.png}",
+      "exists": true,
+      "classification": "present",
+      "extension": "png",
+      "requestCount": 0,
+      "discovery": "source",
+      "evidence": [
+        "source"
+      ],
+      "patternType": "template",
+      "sourceContext": "js/index.js:5867",
+      "sourceContexts": [
+        "js/index.js:5867"
+      ],
+      "sourceSnippet": "o.loader.add(r.cdnPath + \"images/\" + this.id + \"/\" + (i.isMobile ? \"mobile_thumb.png\": \"desktop_home_thumb.png\"), {",
+      "sourceSnippets": [
+        "o.loader.add(r.cdnPath + \"images/\" + this.id + \"/\" + (i.isMobile ? \"mobile_thumb.png\": \"desktop_home_thumb.png\"), {"
+      ],
+      "sourceCount": 1,
+      "discoveredBy": "loader.add",
+      "matchedRuntimeCount": 0,
+      "matchedRuntimePaths": []
+    },
+    {
+      "kind": "source-candidate",
+      "url": "https://index.anheyu.com/assets/images/{low/|high/}cloth_norm.png",
+      "host": "index.anheyu.com",
+      "status": null,
+      "statuses": [],
+      "responseOk": null,
+      "normalizedPath": null,
+      "templatePath": "assets/images/{low/|high/}cloth_norm.png",
+      "exists": true,
+      "classification": "present",
+      "extension": "png",
+      "requestCount": 0,
+      "discovery": "source",
+      "evidence": [
+        "source"
+      ],
+      "patternType": "template",
+      "sourceContext": "js/index.js:11766",
+      "sourceContexts": [
+        "js/index.js:11766"
+      ],
+      "sourceSnippet": "f = o.loader.add(a + \"cloth_norm.png\").content,",
+      "sourceSnippets": [
+        "f = o.loader.add(a + \"cloth_norm.png\").content,"
+      ],
+      "sourceCount": 1,
+      "discoveredBy": "loader.add",
+      "matchedRuntimeCount": 0,
+      "matchedRuntimePaths": []
+    },
+    {
+      "kind": "source-candidate",
+      "url": "https://index.anheyu.com/assets/images/{low/|high/}cloth_pos.png",
+      "host": "index.anheyu.com",
+      "status": null,
+      "statuses": [],
+      "responseOk": null,
+      "normalizedPath": null,
+      "templatePath": "assets/images/{low/|high/}cloth_pos.png",
+      "exists": true,
+      "classification": "present",
+      "extension": "png",
+      "requestCount": 0,
+      "discovery": "source",
+      "evidence": [
+        "source"
+      ],
+      "patternType": "template",
+      "sourceContext": "js/index.js:11765",
+      "sourceContexts": [
+        "js/index.js:11765"
+      ],
+      "sourceSnippet": "d = o.loader.add(a + \"cloth_pos.png\").content,",
+      "sourceSnippets": [
+        "d = o.loader.add(a + \"cloth_pos.png\").content,"
+      ],
+      "sourceCount": 1,
+      "discoveredBy": "loader.add",
+      "matchedRuntimeCount": 0,
+      "matchedRuntimePaths": []
+    },
+    {
+      "kind": "source-candidate",
+      "url": "https://index.anheyu.com/assets/images/floor.jpg",
+      "host": "index.anheyu.com",
+      "status": null,
+      "statuses": [],
+      "responseOk": null,
+      "normalizedPath": "assets/images/floor.jpg",
+      "templatePath": null,
+      "exists": true,
+      "classification": "present",
+      "extension": "jpg",
+      "requestCount": 0,
+      "discovery": "source",
+      "evidence": [
+        "source"
+      ],
+      "patternType": "concatenated",
+      "sourceContext": "js/index.js:10950",
+      "sourceContexts": [
+        "js/index.js:10950"
+      ],
+      "sourceSnippet": "(f = new i.Texture(u.loader.add(s.cdnPath + \"images/floor.jpg\").content)).wrapS = f.wrapT = i.RepeatWrapping,",
+      "sourceSnippets": [
+        "(f = new i.Texture(u.loader.add(s.cdnPath + \"images/floor.jpg\").content)).wrapS = f.wrapT = i.RepeatWrapping,"
+      ],
+      "sourceCount": 1,
+      "discoveredBy": "loader.add",
+      "matchedRuntimeCount": 0,
+      "matchedRuntimePaths": []
+    },
+    {
+      "kind": "source-candidate",
+      "url": "https://index.anheyu.com/assets/images/floor.png",
+      "host": "index.anheyu.com",
+      "status": null,
+      "statuses": [],
+      "responseOk": null,
+      "normalizedPath": "assets/images/floor.png",
+      "templatePath": null,
+      "exists": true,
+      "classification": "present",
+      "extension": "png",
+      "requestCount": 0,
+      "discovery": "source",
+      "evidence": [
+        "source"
+      ],
+      "patternType": "concatenated",
+      "sourceContext": "js/index.js:11516",
+      "sourceContexts": [
+        "js/index.js:11516"
+      ],
+      "sourceSnippet": "(_ = new i.Texture(l.loader.add(c.cdnPath + \"images/floor.png\").content)).wrapS = _.wrapT = i.MirroredRepeatWrapping,",
+      "sourceSnippets": [
+        "(_ = new i.Texture(l.loader.add(c.cdnPath + \"images/floor.png\").content)).wrapS = _.wrapT = i.MirroredRepeatWrapping,"
+      ],
+      "sourceCount": 1,
+      "discoveredBy": "loader.add",
+      "matchedRuntimeCount": 0,
+      "matchedRuntimePaths": []
+    },
+    {
+      "kind": "source-candidate",
+      "url": "https://index.anheyu.com/assets/images/sprite.png",
+      "host": "index.anheyu.com",
+      "status": null,
+      "statuses": [],
+      "responseOk": null,
+      "normalizedPath": "assets/images/sprite.png",
+      "templatePath": null,
+      "exists": true,
+      "classification": "present",
+      "extension": "png",
+      "requestCount": 0,
+      "discovery": "source",
+      "evidence": [
+        "source"
+      ],
+      "patternType": "concatenated",
+      "sourceContext": "js/index.js:5564",
+      "sourceContexts": [
+        "js/index.js:5564"
+      ],
+      "sourceSnippet": "(l = new s.Texture(i.loader.add(r.cdnPath + \"images/sprite.png\").content)).magFilter = l.minFilter = s.LinearFilter,",
+      "sourceSnippets": [
+        "(l = new s.Texture(i.loader.add(r.cdnPath + \"images/sprite.png\").content)).magFilter = l.minFilter = s.LinearFilter,"
+      ],
+      "sourceCount": 1,
+      "discoveredBy": "loader.add",
+      "matchedRuntimeCount": 0,
+      "matchedRuntimePaths": []
+    }
+  ]
+}

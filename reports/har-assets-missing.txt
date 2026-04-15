@@ -1,0 +1,41 @@
+# Missing local same-origin resources
+missing	assets/audios/hover0.mp3	https://index.anheyu.com/assets/audios/hover0.mp3
+missing	assets/audios/hover1.mp3	https://index.anheyu.com/assets/audios/hover1.mp3
+missing	assets/images/img-1/desktop_home.png	https://index.anheyu.com/assets/images/img-1/desktop_home.png
+missing	assets/images/img-2/desktop_home.png	https://index.anheyu.com/assets/images/img-2/desktop_home.png
+missing	assets/images/img-3/desktop_home.png	https://index.anheyu.com/assets/images/img-3/desktop_home.png
+missing	assets/images/img-4/desktop_home.png	https://index.anheyu.com/assets/images/img-4/desktop_home.png
+missing	assets/fonts/GT-Sectra-Fine-Book.woff2	https://index.anheyu.com/assets/fonts/GT-Sectra-Fine-Book.woff2
+missing	assets/fonts/GT-Sectra-Fine-Medium.woff2	https://index.anheyu.com/assets/fonts/GT-Sectra-Fine-Medium.woff2
+missing	assets/fonts/nb_akademie_light-webfont.woff2	https://index.anheyu.com/assets/fonts/nb_akademie_light-webfont.woff2
+missing	assets/fonts/nb_akademie_medium-webfont.woff2	https://index.anheyu.com/assets/fonts/nb_akademie_medium-webfont.woff2
+missing	assets/images/avatar.jpg	https://index.anheyu.com/assets/images/avatar.jpg
+missing	assets/images/dark.png	https://index.anheyu.com/assets//images/dark.png
+
+# Remote CDN resources (not counted as local missing)
+(none)
+
+# Source-only asset candidates
+source-only	missing	assets/images/{low/|high/}cloth.json	template	js/index.js:11767
+source-only	missing	assets/images/animation.glb	concatenated	js/index.js:11746
+source-only	missing	assets/images/buffers.buf	concatenated	js/index.js:3660
+source-only	missing	assets/images/female.glb	concatenated	js/index.js:3653
+source-only	missing	assets/visuals/homeAbout/beethoven.glb	concatenated	js/index.js:9282
+source-only	missing	assets/visuals/homeAbout/beethoven.png	concatenated	js/index.js:9273
+source-only	missing	assets/visuals/homeAbout/bg.buf	concatenated	js/index.js:9442
+source-only	missing	assets/visuals/homeAbout/matcap.jpg	concatenated	js/index.js:9276
+source-only	missing	assets/visuals/homeHero/initial.buf	concatenated	js/index.js:6240
+source-only	missing	assets/visuals/homeVideo/bottom_n.jpg	concatenated	js/index.js:9834
+source-only	missing	assets/visuals/homeVideo/data.buf	concatenated	js/index.js:9868
+source-only	missing	assets/visuals/homeVideo/model_n.jpg	concatenated	js/index.js:9830
+source-only	missing	assets/visuals/homeVideo/room.glb	concatenated	js/index.js:9844
+source-only	missing	assets/visuals/homeVideo/tagline.buf	concatenated	js/index.js:9854
+source-only	missing	assets/visuals/shared/smaa-area.png	concatenated	js/index.js:12147
+source-only	missing	assets/visuals/shared/smaa-search.png	concatenated	js/index.js:12147
+source-only	remote-cdn	visuals/homeVideo/{videoHeight}.mp4	template	js/index.js:9838
+source-only	present	assets/images/{id}/{mobile_thumb.png|desktop_home_thumb.png}	template	js/index.js:5867
+source-only	present	assets/images/{low/|high/}cloth_norm.png	template	js/index.js:11766
+source-only	present	assets/images/{low/|high/}cloth_pos.png	template	js/index.js:11765
+source-only	present	assets/images/floor.jpg	concatenated	js/index.js:10950
+source-only	present	assets/images/floor.png	concatenated	js/index.js:11516
+source-only	present	assets/images/sprite.png	concatenated	js/index.js:5564
